@@ -1,0 +1,29 @@
+Features
+    >> Version control
+    >> Its distributed (on cloud)
+    >> collaboration
+    >> Tracking Changes
+    >> Recovery
+
+https://git-scm.com/
+
+github
+gitbash
+bitbucket
+gitpod
+hitlabs
+
+
+Offline Editor - VS Code
+
+Staging - we make our changes ready to be uploaded.
+
+git add .
+
+git add .  (- all files)
+
+git add index.html style.css  (git add filename1 filename20 ....)
+
+git commit -m "added index.html n style.css"
+
+git push origin master (master/main)

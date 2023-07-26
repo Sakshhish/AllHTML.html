@@ -1,0 +1,60 @@
+button{
+    background-color: black;
+    color: aqua;
+    font-size: 22px;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* transition-timing-function: ease-out; */
+    /* transition-property: background-color ; */
+    /* linear / ease / ease-in / ease-out /  */
+    /* or */
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: all-scroll;
+}
+.parent{
+    background-color: palevioletred;
+    height: 100vh;    
+    /* width: 100vw */
+
+}
+.circle{
+    background-color: plum;
+    height: 100px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.circle :hover{
+    animation: rotatetheball 10s;
+}
+/* keyframes are written to introduce custom animation */
+@keyframes movetheball{
+    25%{
+        transform: translate(500px, -500px);
+    }
+
+    50%{
+        transform: translate(500px, 500px);
+        /* to change the shape  */
+        border-radius: 10%;
+        background-color: plum;
+    }
+
+    75%{
+        transform: translate(0, 500px);
+    }
+
+    80%{
+        transform: translate();
+    }
+
+    100%{
+
+    }
+
+}

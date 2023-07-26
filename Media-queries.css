@@ -1,0 +1,19 @@
+/* If the screen size goes less than 700px then it changes the color to plum and other changes accordingly. */
+/* @media screen only and (max-width: 700px){ */
+    /* h6{ */
+        /*  */
+    /* } */
+    /* p{ */
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    /* } */
+/* }; */
+/* media  */
+@media only screen and (min-width: 400px){
+    h6{
+        color: aqua;
+    }
+    p{
+        color: antiquewhite;
+    }
+    
+}
